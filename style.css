@@ -233,16 +233,37 @@ footer {
   border-radius: 12px;
   padding: 2rem;
   max-width: 500px;
-  text-align: center;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   animation: scaleIn 0.3s ease;
 }
 
 .modal-content h2 {
   color: #0077b6;
-  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.modal-content ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-top: 8px;
 }
 
+.modal-content li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.modal-content h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #2b6cb0;
+  font-size: 1.1rem;
+}
+
+.modal-content p {
+  margin-top: 6px;
+  font-weight: 500;
+}
 .close {
   position: absolute;
   top: 20px;
@@ -252,7 +273,87 @@ footer {
   cursor: pointer;
 }
 
-/* Animations */
+@media (max-width: 768px) {
+
+  .hero {
+    height: 90vh;
+    padding: 0 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .content {
+    padding: 50px 5%;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+  .tips h2,
+  .gallery h2 {
+    font-size: 1.5rem;
+  }
+
+  .tips li strong {
+    font-size: 1rem;
+  }
+
+  .tips li {
+    font-size: 0.95rem;
+  }
+
+
+  .modal-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .modal-content h4 {
+    font-size: 1rem;
+  }
+
+  .modal-content p,
+  .modal-content li {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .gallery h2 {
+    font-size: 1.3rem;
+  }
+
+  .tips li {
+    font-size: 0.9rem;
+  }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;

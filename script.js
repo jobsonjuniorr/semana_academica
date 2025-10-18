@@ -13,8 +13,11 @@ const modalButtons = document.querySelectorAll(".openModalBtn");
 
 modalButtons.forEach(btn => {
   btn.addEventListener("click", () => {
+
     modalTitle.textContent = btn.dataset.title;
-    modalText.textContent = btn.dataset.text;
+
+    modalText.innerHTML = btn.dataset.text;
+
     universalModal.style.display = "flex";
   });
 });
