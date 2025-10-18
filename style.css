@@ -297,11 +297,6 @@ footer {
     padding: 50px 5%;
   }
 
-    .close {
-    top: 10px;
-    right: 15px;
-    font-size: 1.5rem;
-  }
   .intro {
     font-size: 1rem;
   }
@@ -345,12 +340,7 @@ footer {
   .hero h1 {
     font-size: 1.7rem;
   }
- .close {
-    top: 8px;
-    right: 10px;
-    font-size: 2rem;
-    color: #333;
-  }
+
   .hero p {
     font-size: 0.95rem;
   }
