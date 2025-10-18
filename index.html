@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Importância da Postura no Dia a Dia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Movimenta fisio: Ergonomia e saúde em ação</h1>
+      <p>Cuidar da sua postura é cuidar da sua saúde física e mental.</p>
+      <div class="hero-buttons">
+        <button id="scrollBtn">Saiba mais</button>
+        <button class="openModalBtn" data-title="Por que a postura é tão importante?"
+          data-text="Uma boa postura ajuda na circulação, previne dores crônicas e melhora a confiança. Pequenas mudanças no seu dia a dia como ajustar a altura da cadeira e se levantar regularmente fazem uma grande diferença para a saúde da coluna e o bem-estar geral.">Mais
+          informações</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="content" id="main-content">
+    <section class="intro">
+      <p>
+        Manter uma boa postura é essencial para evitar dores musculares, fadiga e problemas na coluna.
+        Uma postura correta melhora a respiração, o humor e até a concentração.
+      </p>
+    </section>
+
+    <section class="tips">
+      <h2>Práticas de prevenção, postura correta e bem-estar no dia a dia</h2>
+      <ul>
+        <li>
+          <strong>Importância da Postura no Dia a Dia</strong>
+          <p>Mantém a saúde da coluna, prevenindo dores, tensões e desgastes.</p>
+          <p>Melhora a respiração, circulação, otimizando o funcionamento do corpo.</p>
+          <p>Transmite confiança, melhora o humor e a disposição.</p>
+        </li>
+
+        <li>
+          <strong>Causas da Má Postura</strong>
+          <p>Hábitos incorretos: sentar errado, curvar-se ao usar eletrônicos, dormir mal.</p>
+          <p>Sedentarismo e fraqueza muscular reduzem o suporte da coluna.</p>
+          <p>Fatores anatômicos, sobrepeso e estresse também contribuem.</p>
+        </li>
+
+        <li>
+          <strong>Malefícios da Má Postura</strong>
+          <p>Pode causar desvios posturais Cifose, Escoliose e hérnias de disco.</p>
+          <p>Provoca dores crônicas, rigidez muscular e fadiga.</p>
+          <p>Afeta digestão, respiração e aparência corporal.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="gallery">
+      <h2>Postura Incorreta vs Correta</h2>
+      <div class="img-container">
+        <figure>
+          <img src="img/img5.jpg" alt="Postura ao ficar de pé">
+          <figcaption>Mantenha a coluna alinhada e os ombros retos.
+            Evite curvar o tronco para frente.</figcaption>
+          <div class="hero-buttons">
+            <button class="openModalBtn" data-title="Postura ao ficar de pé"
+              data-text="Uma postura ereta melhora o equilíbrio, reduz a sobrecarga na lombar e previne dores musculares. Mantenha os ombros relaxados e o peso distribuído igualmente entre as pernas.">
+              Saiba mais!
+            </button>
+          </div>
+        </figure>
+
+        <figure>
+          <img src="img/img8.jpg" alt="Postura ao sentar e levantar objetos">
+          <figcaption>Sente-se com as costas apoiadas e os pés no chão.
+Dobre os joelhos ao levantar peso.</figcaption>
+          <div class="hero-buttons">
+            <button class="openModalBtn" data-title="Postura ao sentar e levantar objetos"
+              data-text="Ao sentar, mantenha as costas retas e os pés totalmente apoiados. Evite se curvar ao pegar objetos dobre os joelhos e mantenha a coluna ereta para proteger a lombar.">
+              Saiba mais!
+            </button>
+          </div>
+        </figure>
+
+        <figure>
+          <img src="img/img7.jpg" alt="Postura ao usar o celular">
+          <figcaption>Segure o celular na altura dos olhos.
+Evite inclinar a cabeça para baixo.</figcaption>
+          <div class="hero-buttons">
+            <button class="openModalBtn" data-title="Postura ao usar o celular"
+              data-text="Inclinar a cabeça para olhar o celular aumenta a pressão sobre a coluna cervical. Traga o aparelho à altura dos olhos e mantenha o pescoço alinhado com o tronco para evitar dores.">
+              Saiba mais!
+            </button>
+          </div>
+        </figure>
+
+        <figure>
+          <img src="img/img10.jpg" alt="Alongamentos e pausas no trabalho">
+          <figcaption>Faça pausas curtas durante o dia. <br> Alongue-se para aliviar a tensão muscular.</figcaption>
+          <div class="hero-buttons">
+            <button class="openModalBtn" data-title="Alongamentos e pausas no trabalho"
+              data-text="Permanecer muito tempo na mesma posição causa rigidez e fadiga muscular. Faça pausas a cada hora, alongue braços, pescoço e pernas para melhorar a circulação e o bem-estar.">
+              Saiba mais!
+            </button>
+          </div>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Universidade Paulista - Centro Universitário UNIGrande ©2025</p>
+  </footer>
+
+  <!-- Popup Modal -->
+  <div class="modal" id="universalModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
